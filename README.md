@@ -1,4 +1,8 @@
-# SPAAC, classroom emotion recognition
+<div align="center">
+
+<img src="assets/hero.svg" width="100%" alt="SPAAC, classroom emotion recognition, shown as a camera viewfinder. One face box reads STUDENT_03, present, attentive; another reads UNKNOWN, not enrolled. Logs name, emotion, attendance and timestamp to CSV with OpenCV, dlib and a Keras CNN trained on FER2013. College project, phase-1 prototype, never deployed." />
+
+</div>
 
 A webcam pipeline that identifies known students by face, reads their expression frame by frame, and logs name, emotion, and an attendance flag to CSV. College project, phase-1 prototype.
 
@@ -60,6 +64,10 @@ SPAAC/
 The model and much of `utils/` are adapted from oarriaga's open-source face-classification work. The classroom and attendance layer on top is this project's own.
 
 Student project, not tuned, benchmarked, or hardened. Treat it as a learning exercise in stitching face recognition and a CNN classifier into one OpenCV loop.
+
+---
+
+<sub>More from [sudhanshu1402](https://github.com/sudhanshu1402): [keel](https://github.com/sudhanshu1402/keel) · [nocap](https://github.com/sudhanshu1402/nocap) · [receipts](https://github.com/sudhanshu1402/receipts) · [enterprise-auth-stack](https://github.com/sudhanshu1402/enterprise-auth-stack) · [distributed-queue-engine](https://github.com/sudhanshu1402/distributed-queue-engine) · [multi-region-mongo-patterns](https://github.com/sudhanshu1402/multi-region-mongo-patterns) · [otel-sdk-node](https://github.com/sudhanshu1402/otel-sdk-node) · [llm-assessment-pipeline](https://github.com/sudhanshu1402/llm-assessment-pipeline) · [system-design-portal](https://github.com/sudhanshu1402/system-design-portal). Portfolio: [sudhanshu1402.github.io](https://sudhanshu1402.github.io).</sub>
 
 ## License
 
